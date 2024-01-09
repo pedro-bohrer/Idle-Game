@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300;400;500;700&display=swap');
+
+:root {
+    --cor-background: linear-gradient(#B85639,#855344, #EB4D1B);
+    --cor-fonte: #ffffff;
+    --font:
+}
+
+body {
+    color: var(--cor-fonte);
+}
+
+.principal {
+    font-family: var(--font);
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    background: var(--cor-background);
+    height: 100vw;
+}
+.titulo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 700;
+    font-size: 3.5rem;
+    margin: 1em;
+}
+.botao__principal {
+    background: transparent;
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.contador{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+    
+}
+ 
